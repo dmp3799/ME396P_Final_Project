@@ -14,7 +14,7 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 - Input: labeled exoskeleton .csv files  
 - Output: optimal hyperparameter values and model accuracy  
 
-### 3. Stick Figure Simulation
+### 3. Bonus Stick Figure Simulation
 Code will generate a visualization of timed actuation assistance of a stick figure on a treadmill.  
 - Input: inverse kinematic .mot file
 - Output: demo walking figure .gif file  
@@ -31,7 +31,7 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 * `pip install optuna`  
 * find `pip install pytorch` command using [PyTorch link](https://pytorch.org/get-started/locally/)
 
-### 3. Stick Figure Simulation  
+### 3. Bonus Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot
   
 *** 

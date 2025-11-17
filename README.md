@@ -29,10 +29,7 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 ### 2. Hyperparameter Tuning and Classification ML
 - Download alldata_[a-e].csv (from [Google Drive](https://drive.google.com/drive/folders/114_iw5vM-oKkxQ3ksYX6KxAR6FYzifeX?usp=sharing))  
 * `pip install optuna`  
-- For CPU only: 
-`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`  
-* For GPU with CUDA: 
-`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`  
+* find pip install command using [PyTorch link](https://pytorch.org/get-started/locally/)
 
 ### 3. Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot

@@ -1,6 +1,7 @@
 # Gait Phase Classifier for Roam Knee Exoskeleton
-***
+
 Developed a classification machine learning model to determine gait phase based on unique [Roam exoskeleton](https://www.roamrobotics.com/) sensor output.  
+***
 
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling

@@ -34,12 +34,3 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 ### 3. Bonus Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot
   
-*** 
-
-## Project Motivation
-
-## Data Processing
-## Model Training
-## Hyperparameter Tuning
-## Model Performance Visualization
-## Bonus: Stick Figure Simulation

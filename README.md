@@ -13,10 +13,12 @@ Download alldata_[a-e].csv
 pip install optuna  
 ```
 For CPU only: 
-```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  
 ```
 For GPU with CUDA: 
-```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  
 ```
 
 ## Project Motivation

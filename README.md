@@ -1,4 +1,6 @@
 # Gait Phase Classifier for Roam Knee Exoskeleton
+---
+Developed a classification machine learning model to determine gait phase based on unique [Roam exoskeleton](https://www.roamrobotics.com/) sensor output.  
 
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling
@@ -13,8 +15,9 @@
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`  
 * For GPU with CUDA: 
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`  
-
+  
 ## Project Motivation
+
 ## Data Processing
 ## Model Training
 ## Hyperparameter Tuning

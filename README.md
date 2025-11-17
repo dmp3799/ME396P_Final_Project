@@ -14,6 +14,11 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 - Input: labeled exoskeleton .csv files  
 - Output: optimal hyperparameter values and model accuracy  
 
+### 3. Stick Figure Simulation
+Code will generate a visualization of timed actuation assistance of a stick figure on a treadmill.  
+- Input: inverse kinematic .mot file
+- Output: demo walking figure .gif file  
+
 ***
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling

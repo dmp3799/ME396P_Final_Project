@@ -16,7 +16,8 @@ Developed a classification machine learning model to determine gait phase based 
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`  
 * For GPU with CUDA: 
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`  
-  
+
+*** 
 ## Project Motivation
 
 ## Data Processing

@@ -9,7 +9,7 @@ Example code will outline the process of: taking in 2 synced data files, filteri
 - Input: force plate and exoskeleton synced .csv files
 - Output: labeled exoskeleton data
 
-### 2. Classification ML and Hyperparameter Tuning
+### 2. Hyperparameter Tuning and Classification ML
 Binarized code will perform hyperparameter tuning using Optuna and will train a classification ML model to detect key gait phases.  
 - Input: labeled exoskeleton .csv files  
 - Output: optimal hyperparameter values and model accuracy  
@@ -33,6 +33,9 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 * For GPU with CUDA: 
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`  
 
+### 3. Stick Figure Simulation  
+- Download InverseKinematics_GaitData.mot
+  
 *** 
 
 ## Project Motivation

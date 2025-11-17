@@ -2,24 +2,17 @@
 
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling
-Download fp_synced.csv and exo_synced.csv  
-```
-pip install scipy  
-```
+- Download fp_synced.csv and exo_synced.csv  
+* `pip install scipy`  
+
 
 ### 2. Hyperparameter Tuning and Classification ML
-Download alldata_[a-e].csv  
-```
-pip install optuna  
-```
+- Download alldata_[a-e].csv  
+* `pip install optuna`  
 For CPU only: 
-```
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  
-```
+- `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`  
 For GPU with CUDA: 
-```
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  
-```
+* `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`  
 
 ## Project Motivation
 ## Data Processing

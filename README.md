@@ -14,6 +14,7 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 - Input: labeled exoskeleton .csv files  
 - Output: optimal hyperparameter values and model accuracy  
 
+***
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling
 - Download fp_synced.csv and exo_synced.csv (from [Google Drive](https://drive.google.com/drive/folders/114_iw5vM-oKkxQ3ksYX6KxAR6FYzifeX?usp=sharing))  

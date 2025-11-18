@@ -24,13 +24,13 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling
 - Download fp_synced.csv and exo_synced.csv (from [Google Drive](https://drive.google.com/drive/folders/114_iw5vM-oKkxQ3ksYX6KxAR6FYzifeX?usp=sharing))  
-* `pip install scipy`  
+- `pip install scipy`  
 
 ### 2. Hyperparameter Tuning and Classification ML
 - Download alldata_[a-e]_trim.csv (from [Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
 - Download TCN_Training binary executables (from [Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
-* `pip install optuna`  
-* find `pip install pytorch` command using [PyTorch link](https://pytorch.org/get-started/locally/)
+- `pip install optuna`  
+- find `pip install pytorch` command using [PyTorch link](https://pytorch.org/get-started/locally/)
 
 ### 3. Bonus Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot

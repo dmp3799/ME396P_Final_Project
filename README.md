@@ -33,14 +33,14 @@ Code will generate a visualization of timed actuation assistance of a stick figu
   - TCN_Training_binary.exe trains for 50 epochs
 
 #### a) For Windows  
-- Run TCN_Training_binary_3_epoch_Windows.exe *might take a few minutes to run*
+- Run TCN_Training_binary_3_epoch_Windows.exe **(might take a few minutes to run)**
 - Select project folder
 - Select training data
 - Select testing data
 - Output: training_results folder
 
 #### b) For Mac
-- Run TCN_Training_binary_3_epoch_mac.exe *might take a few minutes to run*
+- Run TCN_Training_binary_3_epoch_mac.exe **(might take a few minutes to run)**
 - Select project folder
 - Select training data
 - Select testing data

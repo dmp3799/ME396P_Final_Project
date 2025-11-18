@@ -32,6 +32,21 @@ Code will generate a visualization of timed actuation assistance of a stick figu
   - TCN_Training_binary_3_epoch.exe trains for 3 epochs (Much shorter)
   - TCN_Training_binary.exe trains for 50 epochs
 
+#### a) For Windows  
+- Run TCN_Training_binary_3_epoch_Windows.exe
+- Select project folder
+- Select training data
+- Select testing data
+- Output: training_results folder
+
+#### b) For Mac
+- Run TCN_Training_binary_3_epoch_mac.exe
+- Select project folder
+- Select training data
+- Select testing data
+- Do NOT select any more directories if prompted
+- Output: training_results folder
+
 ### 3. Bonus Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot
   

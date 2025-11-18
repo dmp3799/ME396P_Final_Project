@@ -31,8 +31,6 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 - Download TCN_Training binary executables (from [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
   - TCN_Training_binary_3_epoch.exe trains for 3 epochs (Much shorter)
   - TCN_Training_binary.exe trains for 50 epochs
-- `pip install optuna`  
-- find `pip install pytorch` command using [PyTorch link](https://pytorch.org/get-started/locally/)
 
 ### 3. Bonus Stick Figure Simulation  
 - Download InverseKinematics_GaitData.mot

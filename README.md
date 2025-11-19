@@ -15,7 +15,7 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 - Output: optimal hyperparameter values and model accuracy  
 
 ### 3. Bonus Stick Figure Simulation
-Code will generate a visualization of timed actuation assistance of a stick figure on a treadmill.  
+Code will generate a visualization of stick figure gait on a treadmill with stance phase visualization.  
 - Input: inverse kinematic .mot file
 - Output: demo walking figure .gif file  
 
@@ -47,6 +47,15 @@ Code will generate a visualization of timed actuation assistance of a stick figu
 - Do NOT select any more directories if prompted
 - Output: training_results folder
 
-### 3. Bonus Stick Figure Simulation  
-- Download InverseKinematics_GaitData.mot
+### 3. 50 Epoch Visualization
+- Download VisualizeResults_Final.py
+- Download all_data_a.csv to same directory as above.
+- Download evaluation_trial_a_4.csv to same directory as above.
+- Run script. 
+
+### 4. Bonus! Stick Figure Simulation  
+- Download StickFigSim_Final.py
+- Download InverseKinematics_GaitData.mot to the same folder where you will run StickSim_Final.py
+- Run script. See comments for details on how the simulation works. 
+- Animation will save as a .gif in this same directory, named 'DEMO_WalkingStickFig.gif'
   

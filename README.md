@@ -16,7 +16,7 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 
 ### 3. 50 Epoch Visualization
 Code will generate a graphical visualization of the model performance with the black lines indicating ground truth labels and the shading indicating the model performance which are overlayed on a knee angle graph. 
-- Input: training_results
+- Input: all_data_a.csv and evaluation_trial_a_4.csv
 - Output: graphical visualization of model performance
 
 ### 4. Bonus Stick Figure Simulation

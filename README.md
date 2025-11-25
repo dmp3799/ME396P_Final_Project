@@ -24,7 +24,8 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 ## Installations and Setup
 ### 1. Ground Truth Event Labeling
 - Download fp_synced.csv and exo_synced.csv (from [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))  
-- `pip install scipy`  
+- `pip install scipy`
+- input the directory where your .csv files are located
 
 ### 2. Hyperparameter Tuning and Classification ML
 - Download alldata_[a-e]_trim.csv (from [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))

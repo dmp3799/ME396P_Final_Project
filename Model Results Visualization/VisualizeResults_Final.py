@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 # 1. IMPORT EXPERIMENTAL DATA AND GROUND TRUTH LABELS
 # -----------------------------------------------------------------------------
-data = pd.read_csv('alldata_a.csv')
+data = pd.read_csv('alldata_a_trim.csv')
 
 # Pull columns that I will filter and plot
 find_knee_angles = filter(lambda item: 'knee_angle' in item[0], data.items())

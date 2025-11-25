@@ -16,7 +16,7 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 
 ### 3. 50 Epoch Visualization
 Code will generate a graphical visualization of the model performance with the black lines indicating ground truth labels and the shading indicating the model performance which are overlayed on a knee angle graph. 
-- Input: all_data_a.csv and evaluation_trial_a_4.csv
+- Input: all_data_a_trim.csv and evaluation_trial_a_4.csv
 - Output: graphical visualization of model performance
 
 ### 4. Bonus Stick Figure Simulation
@@ -56,7 +56,7 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 
 ### 3. 50 Epoch Visualization
 - Download VisualizeResults_Final.py
-- Download all_data_a.csv to same directory as above
+- Download all_data_a_trim.csv to same directory as above (See training_data in [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
 - Download evaluation_trial_a_4.csv to same directory as above.\
 - if not installed already, `pip install scipy` and `pip install matplotlib`
 - Run script

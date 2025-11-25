@@ -14,7 +14,12 @@ Binarized code will perform hyperparameter tuning using Optuna and will train a 
 - Input: labeled exoskeleton .csv files  
 - Output: optimal hyperparameter values and model accuracy  
 
-### 3. Bonus Stick Figure Simulation
+### 3. 50 Epoch Visualization
+Code will generate a graphical visualization of the model performance with the black lines indicating ground truth labels and the shading indicating the model performance which are overlayed on a knee angle graph. 
+- Input: training_results
+- Output: graphical visualization of model performance
+
+### 4. Bonus Stick Figure Simulation
 Code will generate a visualization of stick figure gait on a treadmill with stance phase visualization.  
 - Input: inverse kinematic .mot file
 - Output: demo walking figure .gif file  
@@ -25,7 +30,8 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 ### 1. Ground Truth Event Labeling
 - Download fp_synced.csv and exo_synced.csv (from [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))  
 - `pip install scipy`
-- input the directory where your .csv files are located
+- Input the directory where your .csv files are located
+- Run the script
 
 ### 2. Hyperparameter Tuning and Classification ML
 - Download alldata_[a-e]_trim.csv (from [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
@@ -50,9 +56,10 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 
 ### 3. 50 Epoch Visualization
 - Download VisualizeResults_Final.py
-- Download all_data_a.csv to same directory as above.
-- Download evaluation_trial_a_4.csv to same directory as above.
-- Run script. 
+- Download all_data_a.csv to same directory as above
+- Download evaluation_trial_a_4.csv to same directory as above.\
+- if not installed already, `pip install scipy` and `pip install matplotlib`
+- Run script
 
 ### 4. Bonus! Stick Figure Simulation  
 - Download StickFigSim_Final.py

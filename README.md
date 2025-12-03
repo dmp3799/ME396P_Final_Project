@@ -57,7 +57,7 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 ### 3. 50 Epoch Visualization
 - Download VisualizeResults_Final.py
 - Download all_data_a_trim.csv to same directory as above (See training_data in [UT Box](https://utexas.box.com/s/lyaur3cgd2ui4627rupvltib57bmxn82))
-- Download evaluation_trial_a_4.csv to same directory as above.\
+- Download evaluation_trial_a_4.csv to same directory as above.
 - if not installed already, `pip install scipy` and `pip install matplotlib`
 - Run script
 

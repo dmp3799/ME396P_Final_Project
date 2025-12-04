@@ -181,4 +181,5 @@ axs[1].set_ylabel('Angle (deg)')
 axs[1].set_xlabel('Time (s)')
 axs[1].set_title('Left Knee')
 axs[1].grid(True)
-plt.show()
+
+plt.savefig("Group3_ModelResultViz.jpg", dpi=300)

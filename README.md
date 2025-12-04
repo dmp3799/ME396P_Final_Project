@@ -60,6 +60,7 @@ Code will generate a visualization of stick figure gait on a treadmill with stan
 - Download evaluation_trial_a_4.csv to same directory as above.
 - if not installed already, `pip install scipy` and `pip install matplotlib`
 - Run script
+- Plot will save to Group3_ModelResultViz.jpg in your directory. 
 
 ### 4. Bonus! Stick Figure Simulation  
 - Download StickFigSim_Final.py
